@@ -1,0 +1,17 @@
+# Study of ads for the sale of apartments
+
+At our disposal is the data of the Yandex.Realty service - an archive of ads for the sale of apartments in St. Petersburg and neighboring settlements for several years. 
+
+Two types of data are available for each apartment for sale. The first ones are entered by the user, the second ones are obtained automatically on the basis of cartographic data. For example, the distance to the center, airport, nearest park and reservoir.
+
+
+### Genereal conclusions
+In this work, we studied the archive of ads for the sale of apartments in St. Petersburg and neighboring settlements for dependencies and pricing factors that exist in the real estate market.
+
+Before starting the analysis, data preprocessing was carried out, during which many gaps, implicit duplicates, incorrect data types were identified and eliminated, and anomalous values ​​were filtered out. Further, additional parameters necessary for analysis were calculated and added to the dataset, such as price per square meter, type of floor, day, month and year of publication of the announcement and distance to the city center in kilometers.
+
+The analysis consists of a detailed study of individual parameters of the database, which subsequently helped to analyze the rate of sale of apartments and the impact of individual parameters on the total value of real estate. Thus, the obvious influence of the total area, together with the living and kitchen area and the number of rooms, on the cost of apartments was confirmed. In addition, it turned out that apartments on the first and last floors are usually cheaper than others.
+
+To a greater extent, prices are still influenced by cartographic data. It is natural that the prices for apartments in St. Petersburg will be significantly higher than in nearby smaller settlements. However, in St. Petersburg itself there is a huge difference in the cost of apartments. So, apartments in the central part of the city can be estimated at several times more expensive than apartments located just a couple of kilometers away. As you move away from the center, the difference in prices decreases, and already 10 kilometers from the center, the location factor of the apartment does not play a significant role in pricing.
+
+In 2014, a high bar was set for the cost of apartments, until 2016 there was a sharp decline in real estate prices. For several more years, there were practically no significant changes in prices, and growth began only in 2019. At the same time, the number of publications grew from year to year. Interestingly, the prices for apartments published on weekends are lower than those published on weekdays.
